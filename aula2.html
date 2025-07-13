@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula 2</title>
+    <style>
+        body {
+            background-color: darkslategrey;
+            font-family: arial, sans-serif ;
+            text-align: left;
+        }
+        
+        h1 {
+            color: bisque;
+        }
+
+        ul li {
+            color: bisque;
+            font-size: 1rem;
+        }
+
+        ol li {
+            color: whitesmoke;
+        }
+
+        h2 {
+            color: lightcyan;
+            text-align: center;
+        }
+
+        table {
+            border: solid 1px white ;
+            text-align: center; 
+            margin: 0 auto;
+            table-layout: fixed;
+            width: 80%;
+        }
+
+        thead {
+            background-color: darkslategray;
+            color: lightcyan;
+        }
+
+        tbody {
+            background-color: white;
+            color: darkslategrey;
+        }
+
+        td {
+            border: solid 1px white;
+            border-collapse: collapse;
+            padding: 10px;
+        }
+
+        .compromisso {
+            background-color: linen;
+            font-weight: bold;
+        }
+
+        </style>
+</head>
+<body>  
+    <main>           
+    <h1>Lista de Tarefas</h1>
+    <ul>
+        <li>Trocar uma lâmpada</li>
+        <ol>
+            <li>Pegar a lâmpada nova</li>
+            <li>Pegar uma escada segura</li>
+            <li>Desligar a lâmpada no interruptor</li>
+            <li>Subir na escada com cuidado</li>
+            <li>Desrosquear a lâmpada queimada</li>
+            <li>Rosquear a nova lâmpada</li>
+            <li>Ligar o interruptor e testar</li>
+        </ol>
+    </ul>
+    <br><br><br>
+
+    <h2>Agenda da Semana</h2>
+    <table>
+        <thead>
+            <th>Dia</th>
+            <th>09h</th>
+            <th>10h</th>
+            <th>11h</th>
+            <th>12h</th>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Segunda</td>
+                <td colspan="2" class="compromisso">Renião com a equipe</td>
+                <td>Almoço livre</td>
+                <td>Check-ins</td>
+            </tr>
+            <tr>
+                <td>Terça</td>
+                <td>Emails</td>
+                <td>Planejamento</td>
+                <td colspan="2" class="compromisso">Apresentação para diretoria</td>
+            </tr>
+            <tr>
+                <td>Quarta</td>
+                <td colspan="4" class="compromisso">Treinamento externo</td>
+            </tr>
+        </tbody>
+    </table>
+    </main>
+</body>
+</html>
