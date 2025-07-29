@@ -80,6 +80,7 @@
       border: 1px solid #ddd;
       padding: 20px;
       border-radius: 8px;
+      cursor: pointer;
     }
 
     .card:hover {
@@ -146,6 +147,8 @@
 
     input[type="submit"] {
       background-color: #004aad;
+      max-width: 5rem;
+      box-shadow: 4px 4px 6px gray;
       color: white;
       font-weight: bold;
       cursor: pointer;
